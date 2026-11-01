@@ -72,7 +72,7 @@ const projects = [
     ],
     github:
       "https://github.com/tanujadesai1122/LowAssit",
-    demo: ""
+    demo: "https://lowassit.onrender.com"
   },
 
   {
@@ -87,7 +87,7 @@ const projects = [
     ],
     github:
       "https://github.com/tanujadesai1122/medical_toxicity_prediction",
-    demo: ""
+    demo: "https://medical-toxicity-prediction.onrender.com"
   }
 ];
 
@@ -473,10 +473,11 @@ export default function App() {
                     >
                       Live Demo
                       <ExternalLink size={16} />
+                      
                     </a>
                   ) : (
                     <span className="demo-pending">
-                      Demo coming soon
+                      Live Demo
                     </span>
                   )}
 
